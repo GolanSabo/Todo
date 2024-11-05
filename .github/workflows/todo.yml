@@ -1,0 +1,14 @@
+# .github/workflows/todo.yml
+name: ToDo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, World!"
